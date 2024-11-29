@@ -6,3 +6,11 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 # # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
 # Layout/SpaceInsideArrayLiteralBrackets:
 #   Enabled: false
+
+# Avoid flagging book highlighting and section marking
+Layout/LeadingCommentSpace:
+  Enabled: false
+Layout/CommentIndentation:
+  Enabled: false
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
